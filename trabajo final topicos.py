@@ -18,3 +18,10 @@ def euclidean(v1,v2):
 def manhattan(v1,v2):
   return abs(sum([(v1[i]-v2[i]) 
     for i in range(len(v1))]))
+
+
+'''///////////////////////////////////////////////////////////////////////////////////////////'''
+# LA SEGUNDA FORMA DE MANHATTAN
+'''///////////////////////////////////////////////////////////////////////////////////////////'''
+    def getManhattan (v1, v2):
+retorno abs (v1 [0] -v1 [1]) + abs (v2 [0] -v2 [1])retorno  float (v1 [0] - v1 [1])  + abs (v2 [0] - v2 [1])
